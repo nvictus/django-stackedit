@@ -1,0 +1,9 @@
+*.pyc
+.DS_Store
+
+dist/
+img/
+stackedit/node_modules/
+stackedit/static/res/bower-libs
+
+MANIFEST

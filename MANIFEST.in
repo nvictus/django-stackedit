@@ -1,0 +1,10 @@
+include LICENSE.txt
+include README.rst
+include CHANGES.txt
+include stackedit/package.json
+include stackedit/bower.json
+include stackedit/.bowerrc
+include stackedit/Gruntfile.js
+recursive-include stackedit/static *
+recursive-include stackedit/templates *
+recursive-include doc *

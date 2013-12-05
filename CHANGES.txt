@@ -1,0 +1,12 @@
+December 5, 2013 - v0.1, Nezar Abdennur
+
+	- Ported StackEdit v2.3.3 to Django
+	- Dropped server.js and related files because we're no longer using node.js
+	- Added django app files: __init__.py, urls.py, and views.py 
+	- Reorganized directory structure to fit Django conventions
+		- public -> static/stackedit
+		- moved html to templates/stackedit
+	- Modified html templates to use django templating language for static urls
+		- public -> {{ STATIC_URL }}stackedit.
+	- Modified static resources: 
+		- res-min/main.js: changed "public" to window.baseDir to fix a 404
