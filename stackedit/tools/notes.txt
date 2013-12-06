@@ -1,9 +1,0 @@
-templated static html resources in ./public/res/html:
-
-buttonShareLocation.html
-buttonStat.html
-dialogAbout.html
-dialogManagePublicationLocation.html
-dialogManageSynchronizationLocation.html
-settingsExtensionsAccordion.html
-settingsShortcutEntry.html

@@ -6,7 +6,9 @@ December 5, 2013 - v0.1, Nezar Abdennur
 	- Reorganized directory structure to fit Django conventions
 		- public -> static/stackedit
 		- moved html to templates/stackedit
+	- Modified Gruntfile to reflect new directory structure
 	- Modified html templates to use django templating language for static urls
 		- public -> {{ STATIC_URL }}stackedit.
 	- Modified static resources: 
 		- res-min/main.js: changed "public" to window.baseDir to fix a 404
+

@@ -7,3 +7,6 @@ stackedit/node_modules/
 stackedit/static/res/bower-libs
 
 MANIFEST
+
+server/
+manage.py
