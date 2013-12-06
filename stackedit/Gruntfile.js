@@ -281,7 +281,7 @@ module.exports = function(grunt) {
         grunt.util.recurse(arguments, function(arg) {
             grunt.log.writeln('Listing resources: ' + arg);
             grunt.file.recurse(arg, function(abspath) {
-                resourceList.push(abspath.replace(/^static/stackedit\//, ''));
+                resourceList.push(abspath.replace(/^static\/stackedit\//, ''));
             });
         });
         grunt.config.set('resources', resourceList.join('\n'));
